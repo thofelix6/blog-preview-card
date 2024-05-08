@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: hsl(47, 88%, 63%);
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500, 800;
+    font-style: normal;
+    font-size: 10px;
+    height: 100%;
+    width: 100%;
+}
+
+.card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 250px;
+    padding: 0 20px 0 20px;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 100%);
+    text-align: start;
+    border: 2px solid black;
+    box-shadow: 12px 12px 0 0 black;
+}
+.card > *{
+    box-sizing: border-box;
+}
+
+.card .imagecard{width: 100%;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.card > .buttonlearning{
+    font-family: "Outfit", sans-serif;
+    font-weight: 900;
+    font-size: 10px;
+    display: inline-block;
+    padding: 7px 7px;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 10px 20px 0 20px;
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 5px;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+.card> .date{
+    font-weight: 500;
+    font-size: 8px;
+}
+.card> .title{
+    font-weight: 800;
+    font-size: 15px;
+    cursor: pointer;
+}
+.card> .title:hover{
+    color: hsl(47, 88%, 63%);
+}
+.card> .description{
+    color: hsl(0, 0%, 50%);
+}
+.card> .user{
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+}
+.user> img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.user> p{
+    font-weight: 800;
+    font-size: 8px;
+}
+
+.attribution { 
+    font-size: 11px;
+    text-align: center;
+    text-align: center;
+    }
+.attribution a { color: hsl(228, 45%, 44%); }
